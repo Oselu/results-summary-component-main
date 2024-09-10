@@ -7,6 +7,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   
   <title>Results summary component Test</title>
 
@@ -27,16 +31,35 @@
       </div>
 
       <div class="summary">
-        <p class="sumary-title">Summary</p>
+        <p class="summary-title">Summary</p>
 
         <div class="summary-main-container">
          <div class="summary-item"> 
           <p class="summary-item-text"> <img src="assets/images/icon-reaction.svg" alt="">reaction</p> 
-          <p>80 <span>/100</span>
+          <p class="class-score">80 <span>/100</span>
            </p>
            </div> 
+
+           <div class="summary-item"> 
+            <p class="summary-item-text"> <img src="assets/images/icon-memory.svg" alt="">memory</p> 
+            <p class="class-score">92 <span>/100</span>
+             </p>
+             </div> 
+
+             <div class="summary-item"> 
+              <p class="summary-item-text"> <img src="assets/images/icon-verbal.svg" alt="">verbal</p> 
+              <p class="class-score">61 <span>/100</span>
+               </p>
+               </div> 
+
+               <div class="summary-item"> 
+                <p class="summary-item-text"> <img src="assets/images/icon-visual.svg" alt="">visual</p> 
+                <p class="class-score">72 <span>/100</span>
+                 </p>
+                 </div> 
         </div>
          
+        <button class="summary-button"> Continue</button>
       </div>
     </div>
   </main> 
